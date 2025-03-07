@@ -1,0 +1,91 @@
+/* Home.css */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.auction-wave {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8; /* 80% Transparency */
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 60px;
+  border-radius: 12px;
+  color: white;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 1;
+}
+
+.tagline {
+  font-size: 36px; /* Increased size */
+  font-weight: bold;
+  color: #f8d210;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-size: 72px; /* Massive AuctionWave text */
+  font-weight: bold;
+  color: #ff6600;
+  text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.7);
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 28px; /* Larger subtitle */
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+.auth-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.auth-links a {
+  text-decoration: none;
+  padding: 20px 32px; /* Bigger buttons */
+  font-size: 24px; /* Larger text */
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn-register {
+  background: #28a745;
+  color: white;
+}
+
+.btn-register:hover {
+  background: #218838;
+}
+
+.btn-login {
+  background: #007bff;
+  color: white;
+}
+
+.btn-login:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,125 @@
+/* Register.css */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("https://media-hosting.imagekit.io//ac07973332cc46bd/wmremove-transformed.jpeg?Expires=1835860295&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=26GG9cGvQoyya9stdF2tfZMNYDOhn7gpjnPPLv-QHUTZd~zbb8sKxxXlzyLt9LWck9f8K7RBhwFzpG9LiMXYM2QaE9Efgdx-XBb42~DjUJ1AuIHweysOaFjKLMECizFk7SSU-cLqF8DHsuFPvYCSTmORMVJN2ejBN3~YYvFonymDjSfh0G3T5LfdlxpMJKQTpsoiYj9oUSeNccnlR--pp-gQdg9G~JIF57HBs4jNQcNmLaX7Q7698zYxzH7E0Fq0lyS9VhtTa9ZGNkySiMcls15dvn6W18LYSkmTFrLDJUIJGYyLlu4yCEGDLI9btaYNHEp-4KhX2iAbRy2owWhOVQ__") 
+                no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.register-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.user-icon {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #dd2476, #ff512f);
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #ff512f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .register-container {
+        max-width: 90vw;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-container {
+        max-width: 95vw;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
